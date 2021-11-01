@@ -2,7 +2,7 @@
 
 let num = prompt("Введите 5 цифр", " ");
 if (num[0] === num[4] && num[1] === num[3]){
-    console.log('Это полимер');
+    console.log('Это полиндром');
 }else{
     console.log('Попробуйте еще раз');
 }
